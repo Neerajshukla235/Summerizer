@@ -34,7 +34,7 @@ translated_summary = translator.translate(translated_summary, src='en', dest='te
 data.at[last_row_index, 'Summary'] = translated_summary
 
 # Save the modified DataFrame back to the CSV file
-data.to_csv('/Users/neerajshukla/PycharmProjects/Web scrapper bot/news_with_summery.csv', index=False)
+#data.to_csv('/Users/neerajshukla/PycharmProjects/Web scrapper bot/news_with_summery.csv', index=False)
 
 
 
